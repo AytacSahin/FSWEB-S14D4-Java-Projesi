@@ -16,7 +16,7 @@ public class Bread extends ProductForSale{
     public void showDetails() {
         System.out.println("****************************");
         System.out.println("Product Type: " + getType());
-        System.out.println("Price: TL" + getPrice());
+        System.out.println("Price: "+ getPrice() + "TL");
         System.out.println("Description: " + getDescription());
         System.out.println("Has Gluten?: " + hasGluten);
     }
